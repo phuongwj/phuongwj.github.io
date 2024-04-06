@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (!(emailAddress.value.endsWith("@dal.ca"))) {
             message.className = "red";
             message.innerHTML = "Invalid email";
-        } else if (phoneNum.value.length < 11)  {
+        } else if (phoneNum.value.length == 10)  {
             message.className = "red";
-            message.innerHTML = "Phone number length must be larger than 11";
+            message.innerHTML = "Phone number length must be 10 numbers";
         }  else if (age.value < 18) {
             message.className = "red";
             message.innerHTML = "I'm sorry you're under age";
