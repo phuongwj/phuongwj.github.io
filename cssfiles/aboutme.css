@@ -1,0 +1,231 @@
+#about-me {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 470px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+img + div {
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.block {
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px #BEBDB8;
+    overflow: hidden;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#Vietnam {
+    width: 270px;
+}
+
+#massage {
+    width: 280px;
+}
+
+#dal {
+    width: 330px;
+}
+
+ul > li {
+    visibility: hidden;
+    opacity: 0;
+}
+
+ol > li {
+    visibility: hidden;
+    opacity: 0; 
+}
+
+li ~ li {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.description1 {
+    height: 50px;
+    width: 270px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 200px;
+    background: rgb(214, 207, 199, 0.6);
+    color: white;
+    transition: 800ms;
+}
+
+.description2 {
+    height: 50px;
+    width: 330px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 200px;
+    background: rgb(214, 207, 199, 0.6);
+    color: white;
+    transition: 800ms;
+}
+
+.description3 {
+    height: 50px;
+    width: 280px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 198px;
+    background: rgb(214, 207, 199, 0.6);
+    color: white;
+    transition: 800ms;
+}
+
+.block:hover .description1{
+    height: 100px;
+    bottom: 200px;
+    background: rgb(214, 207, 199);
+}
+
+.block:hover .description2{
+    height: 160px;
+    bottom: 200px;
+    background: rgb(214, 207, 199);
+}
+
+.block:hover ol > li {
+    opacity: 1;
+    visibility: visible;
+}
+
+.block:hover p ~ p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.block:hover .description3{
+    height: 100px;
+    bottom: 190px;
+    background: rgb(214, 207, 199);
+}
+
+.block:hover ul > li{
+    opacity: 1;
+    visibility: visible;
+}
+
+.block:hover img{
+    transform: scale(1.1);
+}
+
+/* Tablet Screen */
+@media (max-width: 1000px) {
+    #about-me {
+        width: 45%;
+        text-align: center;
+        margin-left: 235px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 90vh;
+    }
+    .description1 {
+        height: 50px;
+        width: 270px;
+        border-radius: 25px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 134.7px;
+        background: rgb(214, 207, 199, 0.6);
+        color: white;
+        transition: 800ms;
+    }
+    .description2 {
+        height: 50px;
+        width: 330px;
+        border-radius: 25px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 350px;
+        background: rgb(214, 207, 199, 0.6);
+        color: white;
+        transition: 800ms;
+    }
+    .description3 {
+        height: 50px;
+        width: 280px;
+        border-radius: 25px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 573px;
+        background: rgb(214, 207, 199, 0.6);
+        color: white;
+        transition: 800ms;
+    }
+}
+
+/* Mobile Screen */
+@media (max-width: 650px) {
+    #about-me {
+        width: 90%;
+        text-align: center;
+        margin-left: 117px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 90vh;
+    }
+    .description1 {
+        height: 50px;
+        width: 270px;
+        border-radius: 25px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 134.7px;
+        background: rgb(214, 207, 199, 0.6);
+        color: white;
+        transition: 800ms;
+    }
+    .description2 {
+        height: 50px;
+        width: 330px;
+        border-radius: 25px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 350px;
+        background: rgb(214, 207, 199, 0.6);
+        color: white;
+        transition: 800ms;
+    }
+    .description3 {
+        height: 50px;
+        width: 280px;
+        border-radius: 25px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 573px;
+        background: rgb(214, 207, 199, 0.6);
+        color: white;
+        transition: 800ms;
+    }
+}

@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#contact {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 470px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.contact-info {
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#theform {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid groove;
+}
+
+button {
+    background-color: #e08c39;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red {
+    text-align: center;
+    color: red;
+    background-color:rgb(241, 198, 198);
+    border: 1px solid groove;
+}
+
+.green {
+    text-align: center;
+    color: green;
+    background-color: rgb(146, 223, 146);
+    border: 1px solid groove;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+/* Tablet Screen */
+@media (max-width: 1000px)  {
+    #contact {
+        width: 45%;
+        text-align: center;
+        margin-left: 235px;
+    }
+    .contact-info {
+        text-align: center;
+        font-family: monospace;
+        font-style: italic;
+        font-size: 15px;
+    }
+    #theform {
+        width: 45%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+/* 
+#theform {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid groove;
+}
+
+button {
+    background-color: #e08c39;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red {
+    text-align: center;
+    color: red;
+    background-color:rgb(241, 198, 198);
+    border: 1px solid groove;
+}
+
+.green {
+    text-align: center;
+    color: green;
+    background-color: rgb(146, 223, 146);
+    border: 1px solid groove;
+} */

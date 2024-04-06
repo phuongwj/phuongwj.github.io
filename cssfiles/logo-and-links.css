@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+#my-logo {
+    width: 25px;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    margin: 0;
+    width: 70%;
+}
+
+#my-name {
+    font-family: "Sans-serif";
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 30px;
+} 
+
+footer {
+    padding-left: 500px;
+    padding-right: 500px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot > a {
+    position: relative;
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+}
+
+.foot > a:after{
+    content:"";
+    position: absolute;
+    background-color: #A67B5B;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.foot > a:hover:after{
+    width: 100%;
+}
+
+/* Tablet Screen */
+@media (max-width: 1000px) {
+    .foot {
+        width: 45%;
+        padding-left: 250px;
+        padding-right: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+/* Mobile Screen */
+@media (max-width: 650px) {
+    .foot {
+        width: 90%;
+        padding-left: 36px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
